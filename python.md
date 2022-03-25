@@ -13,3 +13,12 @@ def export_pdf(request: HttpRequest) -> HttpResponse:
     resp['content-disposition'] = 'inline; filename="test.pdf"'
     return resp
 ```
+```
+x = "test"
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
